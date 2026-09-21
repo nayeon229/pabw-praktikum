@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koleksi Jersey Bola Saya</title>
+</head>
+<body>
+
+  <header>
+    <h1>Koleksi Jersey Bola Saya</h1>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#koleksi">Koleksi Jersey</a></li>
+        <li><a href="#tambah">Tambah Jersey</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda">
+      <h2>Beranda</h2>
+      <figure>
+        <img src="Jersey.webp"
+             alt="Koleksi jersey bola"
+             width="400" height="600" loading="lazy">
+        <figcaption>
+          Selamat datang di halaman koleksi jersey bola saya.
+          Di sini terdapat daftar jersey dari berbagai tim yang saya koleksi.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="koleksi">
+      <h2>Daftar Koleksi Jersey</h2>
+
+      <table>
+        <caption>Tabel Koleksi Jersey Bola</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tahun</th>
+            <th scope="col">Nama Jersey</th>
+            <th scope="col">Tim</th>
+            <th scope="col">Nomor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">2025</th>
+            <td>Home Jersey</td>
+            <td>Barcelona</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <th scope="row">2024</th>
+            <td>Home Jersey</td>
+            <td>Real Madrid</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <th scope="row">2023</th>
+            <td>Home Jersey</td>
+            <td>Manchester United</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <th scope="row">2022</th>
+            <td>Home Jersey</td>
+            <td>Argentina</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="tambah">
+      <h2>Tambah Jersey</h2>
+      <form id="form-jersey">
+        <p>
+          <label for="nama">Nama Jersey:</label>
+          <input type="text" id="nama" name="nama" required>
+        </p>
+        <p>
+          <label for="tim">Tim:</label>
+          <input type="text" id="tim" name="tim" required>
+        </p>
+        <p>
+          <label for="tahun">Tahun Rilis:</label>
+          <input type="number" id="tahun" name="tahun" min="1900" max="2100" required>
+        </p>
+        <button type="submit">Tambah Jersey</button>
+      </form>
+    </section>
+
+    <section id="tentang">
+      <h2>Tentang</h2>
+      <p>Halaman untuk mencatat koleksi jersey bola saya.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Nama Ahmad Azam Albar NIM 25523114 2026</p>
+  </footer>
+
+</body>
+</html>
